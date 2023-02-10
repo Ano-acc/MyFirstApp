@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "MyFirstApp",
-    "slug": "MyFirstApp",
+    "slug": "firstapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -28,6 +28,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "88257ee8-9353-4707-b357-5d38b198e566"
+      }
+    },
+    "owner": "erzot"
   }
 }
